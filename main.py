@@ -4,5 +4,6 @@ from watermarker_ui import WatermarkerUI
 # UI -------------------------------------------------------------------------------------------------------------------
 
 # Create window
-watermarker_ui = WatermarkerUI()
-
+if __name__ == "__main__":
+    watermarker_ui = WatermarkerUI()
+    watermarker_ui.mainloop()
